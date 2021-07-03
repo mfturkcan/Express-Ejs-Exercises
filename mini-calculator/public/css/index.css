@@ -1,0 +1,9 @@
+body{
+    align-items: center;
+    margin: 16px;
+}
+
+#buttons{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}

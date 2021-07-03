@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Mini-Calculator</title>
+</head>
+<body>
+    <form action="/" method = "POST">
+    
+        <input type="number" name="fNumber" placeholder="First number :" autofocus>
+        <input type="number" name="sNumber" placeholder="Second number :" autofocus>
+
+        <div id="buttons" class="form-check">
+            <input type="radio" id="add" name="op" value="add"/>
+            <label for="add">Add</label>
+            <input type="radio" id="substract" name="op" value="substract" />
+            <label for="substract">Substract</label>
+            <input type="radio" id="multiply" name="op" value="multiply" />
+            <label for="multiply">Multiply</label>
+            <input type="radio" id="divide" name="op" value="divide"/>
+            <label for="divide">Divide</label>
+            
+        </div>
+        
+        <button>Calculate</button>
+        
+    
+    
+    </form>
+</body>
+</html>
